@@ -6,6 +6,8 @@ from langchain import OpenAI
 from langchain.chains import VectorDBQAWithSourcesChain
 import pickle
 
+OPENAI_API_KEY="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"
+
 # Load the LangChain.
 index = faiss.read_index("docs.index")
 
